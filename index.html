@@ -3,104 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>vishal gaud</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+    <link rel="stylesheet"href="index.css">
 </head>
-<body>
-    
-  <div class="pp"><ul>
-        <li><a href="http://127.0.0.1:5500/INDEX.HTML"><img src="https://img.icons8.com/?size=96&id=2yfgHA8XGxvd&format=gif" width="37"></a></li>
-        <li>Eduction
-            <div class="a">
-                <ul>
-                    <li>10th</li>
-                    <li>10+2th</li>
-                    <li>BCA 1sem</li>
-                    <li>2sem continuou</li>
-                </ul>
-            </div>
-        </li>
-        <li>Docoment
-            <div class="b">
-                <ul>
-                    <li>Aadhar</li>
-                    <li>Marksheet 1</li>
-                    <li>Marksheet 2</li>
-                    <li>Apaar</li>
-                    <li>Devit</li>
-                </ul>
-            </div>
-        </li>
-        <li>Contect
-            <div class="c">
-                <ul>
-                    <li>9129599664
-                        <div class="d">
-                            <ul>
-                                <li>VISHAL</li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>9558129988
-                        <div class="e">
-                            <ul>
-                                <li>FATHER</li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>9580604152
-                        <div class="f">
-                            <ul>
-                                <li>MOTHER</li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>951973....
-                        <div class="g">
-                            <ul>
-                                <li>UNNON</li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>738894....
-                        <div class="F">
-                            <ul>
-                                <li>UNNON</li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </li>
+<form  onsubmit="return ram()" action="http://127.0.0.1:5501/">
+<body><div class="first">
+    <div class="k">
+        <img src="https://i.pinimg.com/736x/31/46/49/3146494054a879448f2701e6954774a3.jpg"width="500" height="550">
+        <p></p>
+    </div>
+    <div class="r">
+         
+        <h1>ogi</h1>
+        <input type="text"placeholder="Name"id="n1" onblur="r()"><br>
+        <h3><input type="text"placeholder="Father name"id="n2"onblur="r()"></h3>
+        <h5><input type="Password"placeholder="Password"id="n3"></h5>
+        <button type="submit"onclick="return p()">Login</button>
+        <h4><button type="reset" id="h2">Reset</button></h4>
+        <h6><input type="text" id="n5" placeholder="age"></h6>
         
-    </ul>
-  </div>
+    </div>
+    </div>
+    <script>
+        function ram(){
+            let a=document.getElementById("n1").value;
+            let b=document.getElementById("n2").value;
+            let c=document.getElementById("n3").value;
+            
+            if(a==""){
+                alert(` Name is not fill`);
+                return false;
+            }
+            else{
+                true;
+            }
+             
+            if(b==""){
+                alert(`Father name is not fill`);
+                return false;
+            }
+            else{
+                true;
+            }
+
+
+            if(c==""){
+                alert(`Password is not fill`);
+                return false;
+            }
+            else{
+                true;
+            }
+
+           
+        }
+          function r(){
+            let a=document.getElementById("n1");
+            let b=document.getElementById("n2");
+            a.value=a.value.toUpperCase();
+            b.value=b.value.toUpperCase();
+          }
+          function p(){
+            let a=document.getElementById("n5").value;
+            if(a<=17||a==""){
+                alert(`Your Age is:${a} (You are not adult)`);
+                return false;
+            }
+            else{
+                true;
+            }
     
-<div class="v4">
-    <marquee direction="right"><h1>JAY SHREE RAM</h1></marquee>
-</div>
-<div class="w">
-    
-     <ul>
-        <li>
-            <h6><img src="https://img.icons8.com/?size=96&id=6uJdcB0tVRwZ&format=gif"width="40"></h6>
-            <div class="q2">
-                <ul>
-                    <li>
-                       <a href="https://www.instagram.com/?hl=en" ><img src="https://cdn-icons-png.flaticon.com/128/15707/15707749.png" width="100"></a><br>
-                <a href="web.whatsapp.com"><img src="https://cdn-icons-png.flaticon.com/128/15707/15707820.png" width="100"></a><br>
-                <a href="https://www.youtube.com/"><img src="https://cdn-icons-png.flaticon.com/128/4494/4494485.png" width="100"></a><br>
-                <a href="telegram.org"><img src="https://cdn-icons-png.flaticon.com/128/2111/2111646.png" width="100"></a><br>
-                <a href="https://x.com/"><img src="https://cdn-icons-png.flaticon.com/128/4494/4494477.png" width="100"></a><br>
-                <a href="https://www.google.com/"><img src="https://cdn-icons-png.flaticon.com/128/281/281764.png" width="100"></a><br>
-                <a href="https://pixabay.com/"><img src="https://cdn-icons-png.flaticon.com/128/145/145808.png" width="100"></a>
-                    </li>
-                </ul>
-            </div>
-        </li>
-     </ul>  
-    
-   </div>
-</div>
+
+             letc=b!=45? "not":"yes";
+}
+          
+    </script>
 </body>
+</form>
 </html>
