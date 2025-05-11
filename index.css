@@ -1,0 +1,258 @@
+*{
+    margin-top: 0;
+    padding: 0;
+}
+body{background-image: url("Screenshot\ 2025-04-18\ 142305.png");
+    background-size:cover;
+    position: relative;
+    background-repeat: no-repeat;
+    margin-left: -20px;
+  
+    
+
+}
+ ul{
+    
+    background-color:paleturquoise;
+    padding: 3px;
+    background: cover;
+   
+}
+ul li{
+    background-size: cover;
+    display: inline-block;
+    margin-left: 70px;
+    padding: 10px;
+}
+ul li:hover{
+    background-color: chartreuse;
+   
+}
+.a ul{
+    position: absolute;
+    padding: 0px;
+    margin-left: -9.7px;
+    margin-top: 11px;
+
+}
+.a ul li{display: block;
+    padding: px;
+    margin-left: 0px;
+    
+    
+}
+ul li{
+    font:icon;
+}
+ .pp img:first-child{
+    border-radius: 10px;
+    mix-blend-mode:multiply;
+    color: rgb(160, 95, 95);
+}
+.a{
+    display: none;
+}
+ul li:hover .a{
+    display: block;
+  
+}
+.b ul{
+    position: absolute;
+    padding: 0px;
+    margin-left: -9.7px;
+    margin-top: 11px;
+
+}
+.b ul li{display: block;
+    padding: px;
+    margin-left: 0px;
+}
+.b{
+    display: none;
+}
+ul li:hover .b{
+    display: block;
+  
+}
+.c ul{
+    position: absolute;
+    padding: 0px;
+    margin-left: -9.7px;
+    margin-top: 11px;
+
+}
+.c ul li{display: block;
+    padding: px;
+    margin-left: 0px;
+    
+    
+}
+.c{
+    display: none;
+}
+ul li:hover .c{
+    display: block;
+  
+}
+.d ul{
+    position: absolute;
+    margin-left: 90.5px;
+    margin-top: -28.5px;
+
+}
+
+.d{
+    display: none;
+
+}
+.c ul li:hover .d{
+    display: block;
+}
+.e ul{
+    position: absolute;
+    margin-left: 90.5px;
+    margin-top: -28.5px;
+
+}
+.e ul li{
+    display: block;
+}
+.e{
+    display: none;
+
+}
+.c ul li:hover .e{
+    display: block;
+}
+
+.f ul{
+    position: absolute;
+    margin-left: 90.5px;
+    margin-top: -28.5px;
+
+}
+.f ul li{
+    display: block;
+}
+.f{
+    display: none;
+
+}
+.c ul li:hover .f{
+    display: block;
+}
+
+.g ul{
+    position: absolute;
+    margin-left: 90.5px;
+    margin-top: -28.5px;
+
+}
+.g ul li{
+    display: block;
+}
+.g{
+    display: none;
+
+}
+.c ul li:hover .g{
+    display: block;
+}
+.F ul{
+    position: absolute;
+    margin-left: 90.5px;
+    margin-top: -28.5px;
+
+}
+.F ul li{
+    display: block;
+}
+.F{
+    display: none;
+
+}
+.c ul li:hover .F{
+    display: block;
+}
+
+
+h1{
+    position: relative;
+    width: max-content;
+
+}
+p{
+   color: rgb(248, 0, 223);
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+
+}
+
+.w{
+    position: absolute;
+    margin-left: 1300px;
+    margin-top: -130px;
+}
+.w ul li h6 img{
+    margin-top: 0px;
+    margin-bottom: -23px;
+
+}
+.w ul{
+    padding: -5px;
+    position:absolut;
+    margin-top: 0px;
+    background:none;
+  
+}
+.w ul li{
+    padding: 0px;
+    margin-top: 0px;
+    
+}
+.w ul li:hover{
+    background:none;
+}
+.q2 ul li:hover{
+     background-color: darkseagreen;
+}
+.q2 ul{
+    padding: 0px;
+    position: absolute;
+    margin-top:3px;
+    position: absolute;
+    margin-left: -40px;
+    background-color: darkseagreen;
+    border-radius: 12px;
+   
+
+}
+.q2 img{
+    padding: 10px;
+}
+.q2 ul li{
+    padding: 0px;
+    margin-left:-0px ;
+     border-radius:12px;
+}
+.q2{
+    display: none;
+}
+.w ul li:hover .q2{
+    display: block;
+}
+.q2 ul li{
+    overflow-y: scroll;
+    height: 400px;
+}
+.q2 ul li::-webkit-scrollbar{
+    display:none;
+}
+h1{
+    background-image: url("Screenshot\ 2025-04-18\ 161711.png");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
